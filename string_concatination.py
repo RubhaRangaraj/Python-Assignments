@@ -1,6 +1,3 @@
-import os
-import sys
-
 def string_concat(name):    
     length=len(name)
     if length < 2:
@@ -13,4 +10,4 @@ def string_concat(name):
 if __name__ == "__main__":
     name = input('Enter your name: ')
     concat_name=string_concat(name)
-    print "Name after concatination:" + str(concat_name)
+    print ("Name after concatination:" + str(concat_name))
