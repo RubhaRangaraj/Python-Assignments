@@ -1,6 +1,3 @@
-import os
-import sys
-
 name_list=[]
 def find_longer_than_n(input_list,value):
     for var in input_list:
@@ -9,7 +6,7 @@ def find_longer_than_n(input_list,value):
 		    name_list.append(var)
 
     for name in name_list:
-        print name	
+        print (name)	
 
 if __name__ == "__main__":
     input_list = ["sonam","savita","madhumitha","neha","nikhitha","shivangi","keerthi","banupriya"]
