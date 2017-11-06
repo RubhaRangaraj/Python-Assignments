@@ -2,7 +2,7 @@ name_list=[]
 def find_longer_than_n(input_list,value):
     for var in input_list:
 	    length=len(var)
-	    if length > value:
+	    if length > int(value):
 		    name_list.append(var)
 
     for name in name_list:
